@@ -25,7 +25,7 @@ function Navbar() {
                   </a>
 
                   <a
-                    href="#"
+                    href="#skills"
                     className="hover:text-purple-600 px-3 py-2 rounded-md text-md font-medium"
                   >
                     skills
@@ -114,14 +114,14 @@ function Navbar() {
             <div className="md:hidden" id="mobile-menu">
               <div refs={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
+                  href="#project"
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   projects
                 </a>
 
                 <a
-                  href="#"
+                  href="#skills"
                   className="hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   skills

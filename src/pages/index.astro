@@ -2,6 +2,8 @@
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import Project from "../components/Project.jsx";
+import Skills from "../components/Skills.jsx";
+import Certificates from "../components/Certificates.jsx";
 ---
 
 <html lang="en">
@@ -32,5 +34,22 @@ import Project from "../components/Project.jsx";
       </p>
     </div>
     <Project client:idle />
+    <div class="bg-[#1b1b1b] mt-10">
+    <p
+    class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+      >
+        My Skills
+      </p>
+    </div>
+    <Skills client:idle />
+    <div class="bg-[#1b1b1b] mt-10">
+      <p
+      class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+        >
+        certificates
+        </p>
+      </div>
+      <Certificates/>
+      
   </body>
 </html>

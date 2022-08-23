@@ -9,8 +9,7 @@ const Hero = () => {
           Hi , I'm Jay Fullstack Web Developer.
         </h1>
         <p className="text-gray-100/75 mt-4 tracking-widest text-xl">
-        A passionate developer who is Love to make and break stuff everyday. 
-
+          A passionate developer who is Love to make and break stuff everyday.
         </p>
       </div>
     </div>

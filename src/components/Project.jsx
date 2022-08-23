@@ -66,7 +66,9 @@ const Project = () => {
     <div className="bg-[#1b1b1b] flex  flex-wrap px-4 mt-6   " id="project">
       {projects.map((p) => (
         <div className="lg:w-1/3 mt-10 flex mx-auto flex-col  text-gray-400 lg:p-10 ">
+          <a href={p.livelink} target="_blank">
           <img src={p.img} alt="" className=" mx-auto rounded-xl border-2" />
+          </a>
           <h1 className="mt-5 mx-auto text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
             {p.nameofProject}
           </h1>
