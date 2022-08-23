@@ -1,7 +1,7 @@
 import React from "react";
-import django from "../images/djangocerti.png";
-import htmlandcss from "../images/htmlcsscerti.png";
-import cloud from "../images/cloudcerti.png";
+import django from "../images/djangocerti.webp";
+import htmlandcss from "../images/htmlcsscerti.webp";
+import cloud from "../images/cloudcerti.webp";
 
 const Certificates = () => {
   const certificates = [
@@ -23,7 +23,10 @@ const Certificates = () => {
   ];
 
   return (
-    <div id="certificates" className="bg-[#1b1b1b] flex  flex-wrap px-4 mt-6   " >
+    <div
+      id="certificates"
+      className="bg-[#1b1b1b] flex  flex-wrap px-4 mt-6   "
+    >
       {certificates.map((c) => (
         <div className="lg:w-1/3 mt-10 flex mx-auto flex-col  text-gray-400 lg:p-10 ">
           <img src={c.img} alt="" className=" mx-auto rounded-xl border-2" />

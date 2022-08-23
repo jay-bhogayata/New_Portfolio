@@ -1,11 +1,10 @@
 import React from "react";
-import think from "../images/bg1.png";
-import p1 from "../images/p1.png";
-import p2 from "../images/p2.png";
-import p3 from "../images/p3.png";
-import p4 from "../images/p4.png";
-import p5 from "../images/p5.png";
-import p6 from "../images/p6.png";
+import p1 from "../images/p1.webp";
+import p2 from "../images/p2.webp";
+import p3 from "../images/p3.webp";
+import p4 from "../images/p4.webp";
+import p5 from "../images/p5.webp";
+import p6 from "../images/p6.webp";
 
 const Project = () => {
   const projects = [
@@ -67,7 +66,7 @@ const Project = () => {
       {projects.map((p) => (
         <div className="lg:w-1/3 mt-10 flex mx-auto flex-col  text-gray-400 lg:p-10 ">
           <a href={p.livelink} target="_blank">
-          <img src={p.img} alt="" className=" mx-auto rounded-xl border-2" />
+            <img src={p.img} alt="" className=" mx-auto rounded-xl border-2" />
           </a>
           <h1 className="mt-5 mx-auto text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
             {p.nameofProject}

@@ -1,5 +1,4 @@
 import React from "react";
-import think from "../images/bg1.png";
 
 const Hero = () => {
   return (
