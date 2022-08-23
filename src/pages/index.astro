@@ -1,7 +1,7 @@
 ---
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
-
+import Project from "../components/Project.jsx";
 ---
 
 <html lang="en">
@@ -16,12 +16,21 @@ import Hero from "../components/Hero.jsx";
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,600&display=swap"
       rel="stylesheet"
     />
-	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <Navbar client:load />
-    <Hero />
-    
-    
+  <body class="bg-[#1b1b1b]">
+    <Navbar client:idle />
+    <Hero client:idle />
+    <div class="bg-[#1b1b1b] mt-10">
+      <p
+        class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+      >
+        Projects
+      </p>
+    </div>
+    <Project client:idle />
   </body>
 </html>

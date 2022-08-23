@@ -7,19 +7,19 @@ function Navbar() {
   return (
     <div>
       <nav className="bg-[#1b1b1b] text-white w-full">
-        <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="  mx-auto px-4 sm:px-6 lg:px-12">
           <div className="flex items-center justify-between h-16">
             <div className="flex justify-between w-full">
               <div className="flex-shrink-0 ">
-                <h1 className="font-mono text-2xl  font-bold text-transparent bg-clip-text text-gray-300 ">
+                <h1 className="hover:text-purple-600 cursor-pointer font-mono text-2xl  font-bold text-transparent bg-clip-text text-gray-300 ">
                   jay's portfolio
                 </h1>
               </div>
               <div className="hidden md:block font-worksans  ">
                 <div className="ml-10 flex items-baseline  space-x-4">
                   <a
-                    href="#"
-                    className="hover:text-purple-600 px-3 py-2 rounded-md text-md font-medium"
+                    href="#project"
+                    className="hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
                     projects
                   </a>
@@ -33,21 +33,21 @@ function Navbar() {
 
                   <a
                     href="#"
-                    className=" hover:text-purple-600 px-3 py-2 rounded-md text-md font-medium"
+                    className=" hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
                     blog
                   </a>
 
                   <a
                     href="#"
-                    className="hover:text-purple-600 px-3 py-2 rounded-md text-md font-medium"
+                    className="hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
                     certifications
                   </a>
 
                   <a
                     href="#"
-                    className=" hover:text-purple-600 px-3 py-2 rounded-md text-md font-semibold"
+                    className=" hover:text-purple-600 px-3 py-2 rounded-md text-l font-semibold"
                   >
                     Contect me
                   </a>
@@ -124,7 +124,7 @@ function Navbar() {
                   href="#"
                   className="hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  skilss
+                  skills
                 </a>
 
                 <a
