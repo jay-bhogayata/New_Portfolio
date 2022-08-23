@@ -63,7 +63,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="bg-[#1b1b1b] flex  flex-wrap px-4 mt-6   " id="project">
+    <div className="bg-[#1b1b1b] flex  flex-wrap px-4" id="project">
       {projects.map((p) => (
         <div className="lg:w-1/3 mt-10 flex mx-auto flex-col  text-gray-400 lg:p-10 ">
           <a href={p.livelink} target="_blank">

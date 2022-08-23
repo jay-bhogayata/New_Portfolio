@@ -8,18 +8,45 @@ import docker from "../images/docker.svg";
 import tailwind from "../images/tailwind.svg";
 
 const Skills = () => {
+  const list = [
+    {
+      id: 1,
+      img: html,
+    },
+    {
+      id: 2,
+      img: css,
+    },
+    {
+      id: 3,
+      img: js,
+    },
+    {
+      id: 4,
+      img: tailwind,
+    },
+    {
+      id: 5,
+      img: react,
+    },
+    {
+      id: 6,
+      img: git,
+    },
+    {
+      id: 7,
+      img: docker,
+    },
+  ];
+
   return (
     <div
       id="skills"
       className="bg-[#1b1b1b] p-2 flex justify-between mt-10 flex-wrap"
     >
-      <img src={html} alt="html-img" />
-      <img src={css} alt="css-img" />
-      <img src={js} alt="js-img" />
-      <img src={react} alt="reactjs-img" />
-      <img src={tailwind} alt="tailwind-img" />
-      <img src={docker} alt="docker-img" />
-      <img src={git} alt="git-img" />
+      {list.map((l) => (
+        <img src={l.img} alt="skills-img" />
+      ))}
     </div>
   );
 };

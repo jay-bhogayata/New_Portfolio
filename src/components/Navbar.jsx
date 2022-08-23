@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-[#1b1b1b] text-white w-full">
+      <nav className="bg-[#1b1b1b] fixed z-5 text-white w-full backdrop-filter backdrop-blur-lg bg-opacity-30">
         <div className="  mx-auto px-4 sm:px-6 lg:px-12">
           <div className="flex items-center justify-between h-16">
             <div className="flex justify-between w-full">
@@ -32,21 +32,21 @@ function Navbar() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://blog.codewithjay.co.in/"
                     className=" hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
                     blog
                   </a>
 
                   <a
-                    href="#"
+                    href="#certificates"
                     className="hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
                     certifications
                   </a>
 
                   <a
-                    href="#"
+                    href="#contectme"
                     className=" hover:text-purple-600 px-3 py-2 rounded-md text-l font-semibold"
                   >
                     Contect me
@@ -115,6 +115,7 @@ function Navbar() {
               <div refs={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="#project"
+                  onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   projects
@@ -122,30 +123,34 @@ function Navbar() {
 
                 <a
                   href="#skills"
+                  onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   skills
                 </a>
 
                 <a
-                  href="#"
+                  href="https://blog.codewithjay.co.in/"
+                  onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   blog
                 </a>
 
                 <a
-                  href="#"
+                  href="#certificates"
+                  onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  blog
+                  certifications
                 </a>
 
                 <a
-                  href="#"
+                  href="#contectme"
+                  onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Contect us
+                  Contect me
                 </a>
               </div>
             </div>

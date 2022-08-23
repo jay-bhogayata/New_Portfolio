@@ -4,6 +4,8 @@ import Hero from "../components/Hero.jsx";
 import Project from "../components/Project.jsx";
 import Skills from "../components/Skills.jsx";
 import Certificates from "../components/Certificates.jsx";
+import Form from "../components/Form.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en">
@@ -22,6 +24,15 @@ import Certificates from "../components/Certificates.jsx";
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c1f89e671.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </head>
   <body class="bg-[#1b1b1b]">
     <Navbar client:idle />
@@ -35,8 +46,8 @@ import Certificates from "../components/Certificates.jsx";
     </div>
     <Project client:idle />
     <div class="bg-[#1b1b1b] mt-10">
-    <p
-    class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+      <p
+        class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
       >
         My Skills
       </p>
@@ -44,12 +55,20 @@ import Certificates from "../components/Certificates.jsx";
     <Skills client:idle />
     <div class="bg-[#1b1b1b] mt-10">
       <p
-      class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
-        >
+        class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+      >
         certificates
-        </p>
-      </div>
-      <Certificates/>
-      
+      </p>
+    </div>
+    <Certificates />
+    <div class="bg-[#1b1b1b] mt-10">
+      <p
+        class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-4xl text-center py-4 font-bold"
+      >
+        contect me
+      </p>
+    </div>
+    <Form />
+    <Footer />
   </body>
 </html>
