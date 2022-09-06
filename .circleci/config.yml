@@ -53,7 +53,7 @@ workflows:
   build-master:
     jobs:
       - build:
-          context: slack-secrets
+          
           filters:
             branches:
               only: main
