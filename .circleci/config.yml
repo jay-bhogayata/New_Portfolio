@@ -52,12 +52,10 @@ jobs:
           event: fail
           mentions: '@jaybhogayata53'
           template: basic_fail_1
-          color: "#00FF00"
           message: A Docker image is pushed to dockerhub
       - slack/notify:
           event: pass
           template: success_tagged_deploy_1
-          color: "#FF0000"
           message: A Docker image fail pushed to dockerhub
 
       
