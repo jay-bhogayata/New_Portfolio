@@ -27,9 +27,39 @@ jobs:
           event: fail
           mentions: '@jaybhogayata53'
           template: basic_fail_1
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "plain_text",
+                      "text": "A container build fail",
+                      "emoji": true
+                    }
+                  ]
+                }
+              ]
+            }
       - slack/notify:
           event: pass
           template: success_tagged_deploy_1
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "plain_text",
+                      "text": "A container is build successfuly",
+                      "emoji": true
+                    }
+                  ]
+                }
+              ]
+            }
       - persist_to_workspace:
           root: .
           paths:
@@ -52,11 +82,41 @@ jobs:
           event: fail
           mentions: '@jaybhogayata53'
           template: basic_fail_1
-          message: A Docker image is pushed to dockerhub
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "plain_text",
+                      "text": "A container fail to push to hub",
+                      "emoji": true
+                    }
+                  ]
+                }
+              ]
+            }
+          
       - slack/notify:
           event: pass
           template: success_tagged_deploy_1
-          message: A Docker image fail pushed to dockerhub
+          custom: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "plain_text",
+                      "text": "A container pushed to hub",
+                      "emoji": true
+                    }
+                  ]
+                }
+              ]
+            }
+          
 
       
 workflows:
