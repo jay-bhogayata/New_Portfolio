@@ -54,7 +54,7 @@ jobs:
                   "fields": [
                     {
                       "type": "plain_text",
-                      "text": "A container is build successfuly",
+                      "text": "A container is build successfuly.",
                       "emoji": true
                     }
                   ]
