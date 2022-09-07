@@ -118,7 +118,7 @@ jobs:
               ]
             }
   deploy:
-    working_directory: /app
+    working_directory: ~/app
     docker:
       - image: circleci/ruby:2.4.3
     steps:
