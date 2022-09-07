@@ -152,7 +152,8 @@ workflows:
               only: main
 
       - deploy:
+          requires:
+            - publish-latest
           filters:
             branches:
-              only:
-                - main
+              only: main
