@@ -1,9 +1,0 @@
-branch-defaults:
-  main:
-    environment: Myportfoio-env
-global:
-  application_name: MyPortfoio
-  default_ec2_keyname: i-091d0ea963c9225fa
-  default_platform: 64bit Amazon Linux 2017.09 v2.6.2 running Ruby 2.4 (Passenger Standalone)
-  default_region: us-east-1
-  sc: git

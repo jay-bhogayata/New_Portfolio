@@ -30,7 +30,7 @@ const Project = () => {
       discription: "use firebase with recat js for user authentication.",
       img: p3,
       githublink: "https://github.com/jay-bhogayata/codeXacdamy",
-      livelink: "code-xacdamyy.vercel.app/",
+      livelink: "https://code-xacdamyy.vercel.app/",
     },
     {
       id: 4,
@@ -38,8 +38,8 @@ const Project = () => {
       discription:
         "this is basic todo app using react js localstorage and tailwind css.",
       img: p4,
-      githublink: "https://github.com/jay-bhogayata/weatherapp",
-      livelink: "https://weatherapp-delta-five.vercel.app/",
+      githublink: "https://github.com/jay-bhogayata/TODO-APP",
+      livelink: "https://todo-app-alpha-woad.vercel.app/",
     },
     {
       id: 5,

@@ -2,7 +2,6 @@ import React from "react";
 import django from "../images/djangocerti.webp";
 import htmlandcss from "../images/htmlcsscerti.webp";
 import cloud from "../images/cloudcerti.webp";
-
 const Certificates = () => {
   const certificates = [
     {
