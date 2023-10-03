@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        worksans: ["Work Sans", "sans-serif"],
-        pacifico: ["Pacifico", "cursive"],
+        // poppins: ["Poppins", "sans-serif"],
+        // worksans: ["Work Sans", "sans-serif"],
+        // pacifico: ["Pacifico", "cursive"],
       },
     },
   },

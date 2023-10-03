@@ -6,7 +6,7 @@ const Certificates = () => {
   const certificates = [
     {
       id: 1,
-      name: "html and css for morden web Developement",
+      name: "html and css for modern web development",
       img: htmlandcss,
     },
     {
@@ -16,7 +16,7 @@ const Certificates = () => {
     },
     {
       id: 3,
-      name: "introduction to cloud computing",
+      name: "Introduction to cloud computing",
       img: cloud,
     },
   ];

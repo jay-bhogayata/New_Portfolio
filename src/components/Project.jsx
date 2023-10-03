@@ -10,33 +10,34 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      nameofProject: "tic-tac-toe",
-      discription: "tic tac toe game using recat js and some recat js library.",
+      nameofProject: "Tic-Tac-Toe",
+      discription: "Tic-Tac-Toe game using react js and some react js library.",
       img: p1,
       githublink: "https://github.com/jay-bhogayata/react-02-tic-tac-toe",
       livelink: "https://react-02-tic-tac-toe.vercel.app/",
     },
     {
       id: 2,
-      nameofProject: "weather app",
-      discription: "this site  show you current weather using weather api.",
+      nameofProject: "Weather app",
+      discription:
+        "This site  Shows you the current weather using weather api.",
       img: p2,
       githublink: "https://github.com/jay-bhogayata/weatherapp",
       livelink: "https://weatherapp-delta-five.vercel.app/",
     },
     {
       id: 3,
-      nameofProject: "codeXacdamy",
-      discription: "use firebase with recat js for user authentication.",
+      nameofProject: "CodeXacdamy",
+      discription: "Use firebase with react js for user authentication.",
       img: p3,
       githublink: "https://github.com/jay-bhogayata/codeXacdamy",
       livelink: "https://code-xacdamyy.vercel.app/",
     },
     {
       id: 4,
-      nameofProject: "todo app",
+      nameofProject: "To-Do list app",
       discription:
-        "this is basic todo app using react js localstorage and tailwind css.",
+        "This is a basic to do list app using react js local storage and tailwind css.",
       img: p4,
       githublink: "https://github.com/jay-bhogayata/TODO-APP",
       livelink: "https://todo-app-alpha-woad.vercel.app/",
@@ -44,7 +45,7 @@ const Project = () => {
     {
       id: 5,
       nameofProject: "JS calculator",
-      discription: "basic calcutor app using html , css and javascript",
+      discription: "basic calculator app using html, css and javascript.",
       img: p5,
       githublink:
         "https://github.com/jay-bhogayata/javacript_learnning/tree/main/Basic_project/04_js%20calculator",
@@ -53,7 +54,7 @@ const Project = () => {
     {
       id: 6,
       nameofProject: "JS clock",
-      discription: "digital clock using html , tailwind css and javascript",
+      discription: "Digital clock using html, tailwind css and javascript.",
       img: p6,
       githublink:
         "https://github.com/jay-bhogayata/javacript_learnning/tree/main/Basic_project/05_JS%20and%20CSS%20%20analog%20Clock",

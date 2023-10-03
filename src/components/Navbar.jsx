@@ -12,44 +12,44 @@ function Navbar() {
             <div className="flex justify-between w-full">
               <div className="flex-shrink-0 ">
                 <h1 className="hover:text-purple-600 cursor-pointer font-mono text-2xl  font-bold text-transparent bg-clip-text text-gray-300 ">
-                  jay's portfolio
+                  Jay's Portfolio
                 </h1>
               </div>
-              <div className="hidden md:block font-worksans  ">
+              <div className="hidden md:block font-sans  ">
                 <div className="ml-10 flex items-baseline  space-x-4">
                   <a
                     href="#project"
                     className="hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    projects
+                    Projects
                   </a>
 
                   <a
                     href="#skills"
                     className="hover:text-purple-600 px-3 py-2 rounded-md text-md font-medium"
                   >
-                    skills
+                    Skills
                   </a>
 
                   <a
                     href="https://blog.codewithjay.co.in/"
                     className=" hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    blog
+                    Blog
                   </a>
 
                   <a
                     href="#certificates"
                     className="hover:text-purple-600 px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    certifications
+                    Certifications
                   </a>
 
                   <a
                     href="#contectme"
                     className=" hover:text-purple-600 px-3 py-2 rounded-md text-l font-semibold"
                   >
-                    Contect me
+                    Contact me
                   </a>
                 </div>
               </div>
@@ -118,7 +118,7 @@ function Navbar() {
                   onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  projects
+                  Projects
                 </a>
 
                 <a
@@ -126,7 +126,7 @@ function Navbar() {
                   onClick={() => setIsOpen(!isOpen)}
                   className="hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  skills
+                  Skills
                 </a>
 
                 <a
@@ -134,7 +134,7 @@ function Navbar() {
                   onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  blog
+                  Blog
                 </a>
 
                 <a
@@ -142,7 +142,7 @@ function Navbar() {
                   onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  certifications
+                  Certifications
                 </a>
 
                 <a
@@ -150,7 +150,7 @@ function Navbar() {
                   onClick={() => setIsOpen(!isOpen)}
                   className=" hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Contect me
+                  Contact me
                 </a>
               </div>
             </div>
